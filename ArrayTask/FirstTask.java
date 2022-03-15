@@ -22,7 +22,7 @@ public class FirstTask {
         //Antra Uzduotis
         System.out.println("Iveskite skaiciu");
         int userInput = scanner.nextInt();
-        int arrayLenght = arrayLenght(userInput);
+        int arrayLenght = arrayLength(userInput);
         int[] intArray = new int[arrayLenght];
         intArray[0] = userInput;
         intArray[intArray.length - 1] = userInput;
@@ -35,7 +35,7 @@ public class FirstTask {
 
     }
 
-    private static int arrayLenght(int userInput) {
+    private static int arrayLength(int userInput) {
         Random random = new Random();
 
         if (userInput > 7){
